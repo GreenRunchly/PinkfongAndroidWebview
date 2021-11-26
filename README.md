@@ -1,8 +1,8 @@
-# Jadwal Pelajaran SMAN 3 Kabupaten Tangerang
-Aplikasi dibuat agar para siswa akan lebih mudah melihat jadwal pelajaran mereka dengan up-to-date! 
+# Android Webview
+Buat Aplikasi Web mu dengan mudah!
 
 # Minimum System Requirement: <br>
 Android 5.1 <br>
 
-# Download it now!
-https://play.google.com/store/apps/details?id=id.rizkimandiri.jadwalpelajaran
+# How to Build
+Figure it out for yourself
