@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     
@@ -6,14 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google" content="notranslate" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Webview Example">
+    <meta name="author" content="Green Runchly">
     
-    <title>Congratulation!</title>
+    <title>Webview Example Ehe</title>
+    
+    <!--- Style --->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--- Script --->
+    <script src="js/jquery-3.5.1.min.js"></script>
     
 </head>
 <body>
-    
-    <h1>Selamat untuk Android App pertama mu!</h1>
-    <p>Webview bisa lokal maupun melalui internet</p>
+
+    <div class="creatorEasterEgg"></div>
 
 </body>
+<script>
+    /*
+    var warna_warni = [
+        '#fff9d3','#ff99cc','#beffff','#ff7399','#ffca13','#ff9db9'
+    ];
+    */
+    var warna_warni = [
+        '#ff7399'
+    ];
+    function acak(arr, count){
+        var result = [];
+        var _tmp = arr.slice();
+        for(var i = 0; i<count; i++){
+            var index = Math.ceil(Math.random() * 10) % _tmp.length;
+            result.push(_tmp.splice(index, 1)[0]);
+        }
+        return result;
+    }
+    $(document).on('click','.creatorEasterEgg',function(e){
+        $(this).css("background-image","url(assets/char_pinkfong_34.gif)");
+        $("body").css("background-color",acak(warna_warni,1));
+        console.log('Gotcha!');
+    });
+</script>
 </html>
