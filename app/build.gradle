@@ -4,20 +4,7 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        debug {
-            storeFile file('E:\\GitProject\\jadwal-pelajaran-trikabta-assets\\keystore\\keystore.jks')
-            storePassword 'Ilfanindo1878'
-            keyAlias 'rizki'
-            keyPassword 'Ilfanindo1878'
-        }
-        release {
-            storeFile file('E:\\GitProject\\jadwal-pelajaran-trikabta-assets\\keystore\\keystore.jks')
-            storePassword 'Ilfanindo1878'
-            keyAlias 'rizki'
-            keyPassword 'Ilfanindo1878'
-        }
-    }
+
     compileSdk 32
 
     defaultConfig {
@@ -25,7 +12,7 @@ android {
         minSdk 21
         targetSdk 32
         versionCode 1
-        versionName "Debug Version 1.0.0"
+        versionName "Awokwkw 1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
