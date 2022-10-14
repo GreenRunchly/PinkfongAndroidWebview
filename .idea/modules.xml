@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Webview_Example_with_Pinkfong.iml" filepath="$PROJECT_DIR$/.idea/modules/Webview_Example_with_Pinkfong.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Webview_Example_with_Pinkfong.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Webview_Example_with_Pinkfong.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Webview_Example_with_Pinkfong.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Webview_Example_with_Pinkfong.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Webview_Example_with_Pinkfong.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Webview_Example_with_Pinkfong.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Webview_Example_with_Pinkfong.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Webview_Example_with_Pinkfong.app.unitTest.iml" />
     </modules>
